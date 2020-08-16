@@ -9,5 +9,6 @@ Rails.application.routes.draw do
   patch   'tweets/:id' => 'tweets#update'
   get  'tweets/:id/edit' => 'tweets#edit'
   get   'users/:id' => 'users#show'
+  get  'tweets/:id' => 'tweets#show'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
